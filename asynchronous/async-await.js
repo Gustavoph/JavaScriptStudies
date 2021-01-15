@@ -17,21 +17,6 @@ function wait(msg, time){
     })
 }
 
-// wait('Level 1', random())
-//     .then(response =>{
-//         console.log(response);
-//         return wait('Level 2', random())
-//     })
-//     .then(response =>{
-//         console.log(response)
-//         return wait('Level 3', random())
-//     })
-//     .then(response =>{
-//         console.log(response)
-//     })
-//     .catch(err =>{
-//         console.log(err);
-//     });
 
 async function main(){
     try{
@@ -50,5 +35,20 @@ async function main(){
         console.log(err);
     }
 }
-
 main();
+
+async function newCar(){
+    const part1 = await wait('get chassis', random(1, 2));
+    console.log(part1);
+    
+    const part2 = await wait('get wheels', random(1, 2));
+    console.log(part2);
+
+    const part3 = await wait('get carcass', random(1, 2));
+    console.log(part3);
+
+    const part4 = await wait('put it all together', random(1, 2));
+    console.log(part4);
+}
+
+newCar();
