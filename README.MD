@@ -1,3 +1,2 @@
 # JavaScript Studies
-###JavaScript Studies for back-end!
-##teste readme
+### JavaScript Studies for back-end!
