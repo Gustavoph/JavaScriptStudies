@@ -40,7 +40,7 @@ function random(min, max){
 //     });
 
     
-console.log('Isso irá executar antes de tudo!');
+//console.log('Isso irá executar antes de tudo!');
 //Código treino promises
 
 function Search(msg){
